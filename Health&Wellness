@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health & Wellness</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Shared CSS -->
+  <link rel="stylesheet" href="prototype(styles).css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container header-flex">
+
+    <div class="logo">
+      <i class="fas fa-map-pin" style="color:#2a7f62; margin-right:8px;"></i>
+      <span>Business<span class="logo-highlight">Locator</span></span>
+    </div>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="businesses.html">Businesses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-cta">
+      <a href="add-business.html" class="btn-outline-sm">
+        <i class="fa-regular fa-building"></i> Add business
+      </a>
+    </div>
+
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-content">
+
+    <h1>Find Health & Wellness Services Near You</h1>
+    <p class="hero-subhead">
+      Discover clinics, pharmacies, gyms, and wellness centres around you.
+    </p>
+
+    <!-- SEARCH -->
+    <div class="search-wrapper">
+      <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search health services...">
+        <button class="btn-primary">Search</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- HEALTH LIST -->
+<div class="Stores-List">
+  <h1>Health & Wellness Profiles</h1>
+
+  <!-- CLINIC -->
+  <div class="Stores-Item">
+    <h2>Life Healthcare Clinic</h2>
+    <img src="Life Healthcare Clinic.jpeg" width="200" height="200" class="Stores-Image">
+    <p>Private clinic offering general medical services</p>
+    <p>Location: Pretoria</p>
+    <p>Operating Hours: 08h00 - 17h00</p>
+    <p>Phone: +27 11 555 1111</p>
+    <br>
+
+    <a href="https://www.google.com/maps?q=Life Healthcare Pretoria" target="_blank" class="btn-primary">
+      Get Directions
+    </a>
+  </div>
+  <br>
+
+  <!-- PHARMACY -->
+  <div class="Stores-Item">
+    <h2>Clicks Pharmacy</h2>
+    <img src="Clicks Pharmacy.webp" width="200" height="200" class="Stores-Image">
+    <p>Pharmacy, health products, and prescriptions</p>
+    <p>Location: Shopping Mall</p>
+    <p>Operating Hours: 09h00 - 19h00</p>
+    <p>Phone: +27 11 555 2222</p>
+    <br>
+
+    <a href="https://www.google.com/maps?q=Clicks Pharmacy Pretoria" target="_blank" class="btn-primary">
+      Get Directions
+    </a>
+  </div>
+  <br>
+
+  <!-- GYM -->
+  <div class="Stores-Item">
+    <h2>Virgin Active Gym</h2>
+    <img src="Virgin Active Gym.webp" width="200" height="200" class="Stores-Image">
+    <p>Fitness centre with modern equipment and trainers</p>
+    <p>Location: City Centre</p>
+    <p>Operating Hours: 05h00 - 22h00</p>
+    <p>Phone: +27 11 555 3333</p>
+    <br>
+
+    <a href="https://www.google.com/maps?q=Virgin Active Pretoria" target="_blank" class="btn-primary">
+      Get Directions
+    </a>
+  </div>
+  <br>
+
+  <!-- SALON -->
+  <div class="Stores-Item">
+    <h2>Glow Beauty Salon</h2>
+    <img src="Glow Beauty Salon.webp" width="200" height="200" class="Stores-Image">
+    <p>Hair, nails, and beauty treatments</p>
+    <p>Location: Local Plaza</p>
+    <p>Operating Hours: 09h00 - 18h00</p>
+    <p>Phone: +27 11 555 4444</p>
+    <br>
+
+    <a href="https://www.google.com/maps?q=Beauty Salon Pretoria" target="_blank" class="btn-primary">
+      Get Directions
+    </a>
+  </div>
+  <br>
+
+</div>
+
+<!-- JS -->
+<script src="Script(2).js"></script>
+
+</body>
+</html>
